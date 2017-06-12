@@ -9,7 +9,7 @@
 <body>
 <?php
 
-    $link = // tady byli super tajné informace ke komunikaci s databází
+  $link = // tady byli super tajné informace ke komunikaci s databází
     $x = $_SESSION["x"];
     if($link == NULL)
         echo "Spojeni se nepodarilo navazat!";

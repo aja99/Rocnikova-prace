@@ -1,0 +1,192 @@
+body	{
+	background-color: rgb(75,191,107);
+}
+
+div	{
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#nav	{
+	width: 100%;
+	height: 150px;
+}
+
+.menu   {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: black;
+    width: 100%;
+    height: 60px;
+}
+
+.buttonsOnTop   {
+    position: relative;
+    width: 650px;
+    height: 60px;
+    margin: 0 auto;
+}
+
+.home {
+    position: absolute;
+    top: 5;
+    left: 5;
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    background-image: url('./img/home.png');
+    background-size: 40px 40px;
+    background-position: center;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.home:hover   {
+    background-image: url('./img/home-hover.png');
+    transition: 1.5s;
+}
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 25px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: 'Overpass', sans-serif;
+    font-size: 14px;
+}
+
+.footer a {
+    color: white;
+}
+
+input[type="button"]	{
+    display: inline-block;
+	width: 200px;
+	height: 50px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: font-family: 'Overpass', sans-serif;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 4px 2px;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: black;
+}
+
+.searchForm {
+    display: block;
+    height:50px;
+    width: 1000px;
+}
+
+.searchForm input[type="text"] {
+    position: relative;
+    float: left;
+    height: 50px;
+    width: 25%;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    font-size: 20px;
+    background-color: white;
+}
+
+.searchForm input[type="submit"]    {
+    position: relative;
+    float: left;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+    background-image: url('./img/searchIcon.png');
+    background-size: 45px 45px;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.customers  {
+    background-color: red;
+    color: white;
+    border-color: red;    
+}
+
+.customers:hover    {
+    background-color: white;
+    color: red;
+    transition: 1s;
+}
+
+.products   {
+    background-color: #008CBA;
+    color: white;
+    border-color: #008CBA;
+}
+
+.products:hover {
+    background-color: white;
+    color: #008CBA;
+    transition: 1s;
+}
+
+.default    {
+    background-color: #ffa500;
+    color: white;
+    border-color: #ffa500;
+}
+
+.default:hover  {
+    background-color: white;
+    color: #ffa500;
+    transition: 1s;
+}
+
+.eq, .zoznam, .trop    {
+	display: none;
+}
+	
+table {
+    margin: 0 auto;
+	display: block;
+    width: 75%;
+    height: 100%;
+	border: none;
+	border-collapse: collapse;
+    font-family: 'Overpass', sans-serif;
+    font-size: 16px;
+}
+
+tr	{
+	width: 100%;
+}
+	
+th, td	{
+	width: 25%;
+	height: 75px;
+	text-align: center;
+}
+
+
+th  {
+    background-color: black;
+    color: white;
+    font-size: 18px;
+}
+
+tr:nth-child(even)	{
+	background-color: rgb(113, 213, 139);
+}
+
+tr:nth-child(odd)   {
+    background-color: rgb(164,233,182);
+}
